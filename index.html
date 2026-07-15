@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MosheTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+
+    <header>
+    <nav>
+    <h1 class="logo">🚀 MosheTech</h1>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-me">Why Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+
+        <button id="darkModeBtn">🌙 Dark Mode</button>
+    </nav>
+
+    <div class="hero" id="home">
+
+    <div class="hero-text">
+
+        <h2>
+            I'm <span id="typing"></span>
+        </h2>
+
+        <p>
+            Professional websites, web applications and mobile apps
+            designed to help your business grow online.
+        </p>
+
+        <p class="quote">
+"Turning ideas into modern digital experiences."
+</p>
+
+        <button onclick="location.href='#contact'">
+Hire Me
+</button>
+
+        <button
+class="secondary-btn"
+onclick="location.href='#portfolio'">
+
+View My Work
+
+</button>
+
+    </div>
+
+</div>
+
+<section class="stats">
+
+<div class="stat">
+<h2>50+</h2>
+<p>Projects</p>
+</div>
+
+<div class="stat">
+<h2>20+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat">
+<h2>5+</h2>
+<p>Technologies</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Dedication</p>
+</div>
+
+</section>
+    
+</header>
+        
+<section id="portfolio" class="portfolio">
+
+    <h2>My Portfolio</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="project">
+            <h3>Business Website</h3>
+            <p>A responsive website for a small business.</p>
+        </div>
+
+        <div class="project">
+            <h3>Flutter App</h3>
+            <p>A mobile application built with Flutter.</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing projects.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="skills" class="skills">
+
+<h2>My Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><div class="fill html"></div></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><div class="fill css"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div class="fill js"></div></div>
+</div>
+
+</section>
+    <main>
+
+<section id="services" class="services hidden">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌐 website development</h3>
+<p>We build fast, modern and responsive websites.</p>
+</div>
+
+<div class="card">
+<h3>📱 Mobile Apps</h3>
+<p>Android applications built with Flutter.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Graphic Design</h3>
+<p>Professional logos, banners and branding.</p>
+</div>
+
+</div>
+
+</section>
+
+  <section id="about" class="about hidden">
+
+    <div class="about-container">
+
+        <img src="images/profile.jpg" alt="Moshe Daniel" class="profile-image">
+
+        <div class="about-text">
+
+            <h2>About Me</h2>
+
+            <p>
+                I'm <strong>Moshe Daniel</strong>, an aspiring web and flutter developer from Nigeria. I enjoy creating responsive websites and learning modern technologies. My goal is to build digital solutions that help businesses grow and improve people's lives.
+            </p>
+            <button>Download My CV</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="portfolio" class="portfolio hidden">
+
+    <h2>My Portfolio</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="project">
+
+            <img src="images/project1.jpg" alt="Business Website">
+            <h3>🌐 Business Website</h3>
+            <p>A modern responsive website for a small business.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/project2.jpg" alt="E-Commerce Store">
+            <h3>🛒 E-Commerce Store</h3>
+            <p>An online shopping website with a clean design.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/project3.jpg" alt="Mobile App UI">
+            <h3>📱 Mobile App UI</h3>
+            <p>A Flutter mobile application interface.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="testimonials" class="testimonials hidden">
+
+    <h2>What Clients Say</h2>
+
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <p>"MosheTech built a beautiful website for my business. Highly recommended!"</p>
+            <h4>- JOHN DOE</h4>
+        </div>
+        <div class="testimonial">
+            <p>"professional, fast and easy to work with."</p>
+            <h4>- SARAH JAMES</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Excellent communication and modern design."</p>
+            <h4>- MICHAEL BROWN</h4>
+        </div>
+    </div>
+
+</section>
+
+<section id="skills" class="skills hidden">
+
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <p>HTML</p>
+        <div class="bar">
+            <div class="fill html">90%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>CSS</p>
+        <div class="bar">
+            <div class="fill css">85%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar">
+            <div class="fill js">70%</div>
+        </div>
+    </div>
+
+</section>
+
+<section id="pricing" class="pricing hidden">
+
+    <h2>PRICING</h2>
+
+    <div class="pricing-container">
+
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <h1>₦30,000</h1>
+            <p>1-page Website</p>
+            <p>Responsive Design</p>
+            <p>1 week support</p>
+            <button onclick="location.href='#contact'">
+    Choose Plan
+</button>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Standard</h3>
+            <h1>₦80,000</h1>
+            <p>5-pages website</p>
+            <p>Responsive Design</p>
+            <p>Contact Form</p>
+            <p>1 month support</p>
+            <button onclick="location.href='#contact'">
+    Choose Plan
+</button>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Premium</h3>
+            <h1>₦150,000</h1>
+            <p>Custom website</p>
+            <p>Responsive Design</p>
+            <p>Contact Form</p>
+            <p>3 months support</p>
+            <button onclick="location.href='#contact'">
+    Choose Plan
+</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="why-me" class="why-me hidden">
+
+    <h2>Why Choose Me?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>⚡ Fast Delivery</h3>
+            <p>I deliver projects on time without sacrificing quality.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>💻 Modern Design</h3>
+            <p>Responsive websites that work beautifully on phones and computers.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>🤝 Reliable Support</h3>
+            <p>I provide support and updates even after the project is completed.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact hidden">
+
+<h2>Let's Work Together</h2>
+
+<p>Have a project? Send me a message below.</p>
+
+<form id="contactForm">
+
+<input type="text" placeholder="MosheTech" required>
+
+<input type="email" placeholder="moshedaniel639@gmail.com" required>
+
+<textarea placeholder="Your Message" rows="6" required></textarea>
+
+<button type="submit">
+Send Message
+</button>
+</form>
+
+</section>
+
+    </main>
+
+    <section class="social">
+
+<h2>Follow Me</h2>
+
+<a href="#">Facebook</a> |
+<a href="#">LinkedIn</a> |
+<a href="#">GitHub</a>
+
+</section>
+
+    <footer>
+
+<h2>MosheTech</h2>
+
+<p>
+building websites that are fast, modern and user-friendly.
+</p>
+
+<div class="footer-links">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">portfolio</a>
+    <a href="#contact">contact</a>
+
+</div>
+
+<p>
+© 2026 MosheTech. All Rights Reserved.
+</p>
+
+</footer>
+
+<button id="backToTop" title="Go To Top">&#8593;</button>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
